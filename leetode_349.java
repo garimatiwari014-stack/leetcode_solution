@@ -21,6 +21,8 @@ class Solution {
             j++;
         }
        }
+       
        return  al.stream().mapToInt(x -> x).toArray();
+
     }
 }
